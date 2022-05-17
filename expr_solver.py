@@ -48,6 +48,7 @@ while f==1:
     ob = Solution()
     a=ob.solve(s[p+1:q])
     u=[]
+    a=str(a)
     u.append(a)  
     s=s[0:p]+u+s[q+1:]
     if '(' not in s:
